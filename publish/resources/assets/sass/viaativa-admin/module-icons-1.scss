@@ -1,0 +1,79 @@
+.icons-wrapper {
+    position: relative;
+    width: 122px;
+}
+
+.icon-selector {
+    position: absolute;
+    top: -27px;
+    right: -535px;
+    width: 500px;
+    background: #fff;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 7px;
+    height: 446px;
+    z-index: 9;
+}
+
+.icon-selector.hidden {
+    display: none;
+}
+
+.icon-selected {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icon-selector .icons-wrapper-arrow {
+    position: absolute;
+    top: 48px;
+    left: -10px;
+    z-index: 1;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transform: rotate(45deg);
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
+.icon-selector select {
+    width: 100%;
+    margin-bottom: 12px;
+    z-index: 2;
+}
+
+.icon-selector .icons-list {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    z-index: 2;
+    max-height: 394px;
+    padding: 5px;
+}
+
+.icon-selector .icon-wrapper {
+    cursor: pointer;
+    margin: 4px;
+    border: 1px solid transparent;
+    padding: 2px 12px;
+    border-radius: 10px;
+    transition: .05s;
+    max-height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 59px;
+}
+.icon-selector .icon-wrapper:hover {
+    border: 1px solid #888;
+    background: #76838f !important;
+    color: white !important;
+}
+
+.icon-selector .icon-wrapper i {
+    font-size: 40px;
+}

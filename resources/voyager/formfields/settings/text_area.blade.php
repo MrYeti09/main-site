@@ -1,0 +1,1 @@
+<textarea class="form-control" name="{{ $setting->key }}">{{ $setting->value ?? '' }}</textarea>

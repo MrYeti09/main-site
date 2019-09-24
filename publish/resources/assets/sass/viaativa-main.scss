@@ -1,0 +1,75 @@
+input[type='file'].hide {
+  display: none;
+}
+
+.colorpicker input[type=color] {
+  -webkit-appearance: textfield;
+  height: 48px;
+  width: 48px;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 6px;
+  height: 36px;
+  width: 140px;
+  transition: 0.2s all;
+}
+
+.custom-file-upload:hover {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-left: 20px;
+  height: 36px;
+  width: 140px;
+  background-color: rgba(0, 0, 0, 0.11);
+  transition: 0.2s all;
+}
+
+.tab-button {
+  height: 100%;
+  width: 120px;
+  padding-left:8px;
+  padding-right:8px;
+  flex-grow: initial;
+  background-color: rgba(255, 255, 255, 0.10);
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  margin-right: 5px;
+  transition: 0.2s all;
+  cursor: pointer;
+}
+
+.tab-button:hover {
+  background-color: rgba(255, 255, 255, 0.28);
+  transition: 0.2s all;
+}
+
+.tab-button-active {
+  height: 100%;
+  width: 120px;
+  padding-left:8px;
+  flex-grow: initial;
+  padding-right:8px;
+  background-color: rgba(0, 0, 0, 0.17);
+  text-align: center;
+  line-height: 40px;
+  color: white;
+  margin-right: 5px;
+  transition: 0.2s all;
+  cursor: pointer;
+}
+
+.tab-button-active:hover {
+  background-color: rgba(255, 255, 255, 0.73);
+  transition: 0.2s all;
+}
+
+

@@ -1,0 +1,1 @@
+<div class="fileType">{{ $setting->value }}</div>

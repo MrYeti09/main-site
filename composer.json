@@ -1,0 +1,29 @@
+{
+    "name": "viaativa/viaativa-site",
+    "description": "Website Root",
+    "license": "Unlicense",
+    "authors": [
+        {
+            "name": "Viaativa",
+            "email": "desenvolvedor@viaativa.com.br"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "chumper/zipper": "^1.0",
+        "sabberworm/php-css-parser": "^8.3"
+    },
+    "autoload": {
+        "classmap": [],
+        "psr-4": {
+            "Viaativa\\Viaroot\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Viaativa\\Viaroot\\Providers\\ViarootServiceProvider"
+            ]
+        }
+    }
+}
